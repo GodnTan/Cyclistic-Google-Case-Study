@@ -24,13 +24,15 @@ I also included data that have a valid time length (more than 1 minute and less 
 
 To further analyse my data to conduct trends across both weeks and months, I modified the tables and added new columns;  Ride Length,Time of ride, Day of the Week, Month and Year per Ride ID
 
+For Excel, i cleaned the December 2023 dataset by formatting cell data types, removing rows with empty cells and created new columns using excel aggregate functions
+
 # Analyze
 
 For the analysis portion of the code, I calculated the following in SQL:
 
-1. Average length of ride
+1. Average length of ride between casual and member riders
 2. Greatest number of riders in which days in a week for casual and member riders.
-3. 
+   
 
 
 # Share
