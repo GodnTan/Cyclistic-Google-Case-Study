@@ -127,11 +127,20 @@ FROM `hardy-portal-412114.2023Data.First_half_data_2023_clean`
 SELECT 
   EXTRACT (HOUR from started_at) AS hour_of_day, count (*) AS num_of_rides, member_type
 FROM `hardy-portal-412114.2023Data.First_half_data_2023_clean` 
-
 GROUP BY
   hour_of_day , member_type
 ORDER BY
   hour_of_day DESC,member_type
+
+--Sorted Analysis of the popular hours where each user rides the bikes from Most Popular to Least Popular
+SELECT 
+  EXTRACT (HOUR from started_at) AS hour_of_day, count (*) AS num_of_rides, member_type
+FROM `hardy-portal-412114.2023Data.First_half_data_2023_clean` 
+
+GROUP BY
+  hour_of_day , member_type
+ORDER BY
+  num_of_rides DESC,member_type
 
 -- this query checks what days are the most popular ones within the week by counting number of riders
 SELECT  
