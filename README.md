@@ -50,6 +50,6 @@ These are my key takeaways from my Analysis on the case study between casual rid
 5. Casual riders always ride longer on average as compared to member riders throughout the months.
 
 Recommendations based on analysis: 
-1. Market classic bikes as the main bike of cyclistic as looking at the whole picture, both casual and member risers significantly ride classic bikes more which would indicate their preferences for the classic bikes
+1. Market electric bikes as the main bike of cyclistic as looking at the whole picture, both casual and member risers significantly ride electric bikes more which would indicate their preferences for the classic bikes
 2. Ensure that supplies of bikes are increased in heavy periods starting from May onwards as there is a steep increase in riders from May-June as compared to Jan-April.
 3. Discounted membership prices can be implemented for casual riders whose riding time  exceeds 10min which appears to be the trend while 10mins appears to be the time frame that members are riding their bikes
